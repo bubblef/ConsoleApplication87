@@ -1,6 +1,7 @@
 ﻿using System ;
 using System.Collections.Generic ;
 using NLog ;
+using NUnit.Framework ;
 
 namespace ConsoleApplication87{
 	internal class Program{
@@ -8,6 +9,12 @@ namespace ConsoleApplication87{
 
 		public static void Main (string[] args)
 		{
+		}
+
+		[Test]
+		public void Test()
+		{
+			Assert.True (true);
 		}
 	}
 }
